@@ -1,8 +1,5 @@
+mod print;
+
 fn main() {
-    println!("Hello, world!");
+    print::run();
 }
-
-// cargo new rusty app
-// rustc src/main.rs -o src/main && src/main
-
-// cargo run
