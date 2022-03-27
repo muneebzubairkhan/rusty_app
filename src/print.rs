@@ -1,3 +1,3 @@
 pub fn run() {
-    println!("{} my age is {}","Aoa", 22);
+    println!("{0} my age is {1} and your is also {1}","Aoa", 22);
 }
