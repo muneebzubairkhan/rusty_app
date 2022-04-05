@@ -3,8 +3,8 @@ pub fn run() {
 }
 
 pub fn run_loop(){
-   for x in 1..11{ // 11 is not inclusive
-      if x==5 {
+   for x in 1..6{ // 6 is not inclusive
+      if x==3 {
          continue;
       }
       println!("x is {}",x);
