@@ -14,3 +14,8 @@ pub fn run_loop(){
 pub fn get_pi() -> f64 {
    22.0/7.0
 }
+
+pub fn tuple_run() {
+   let tuple:(i32,f64,u8) = (-325,4.9,22);
+   println!("{:?}",tuple);
+}
