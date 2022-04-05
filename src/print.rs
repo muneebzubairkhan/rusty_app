@@ -10,3 +10,7 @@ pub fn run_loop(){
       println!("x is {}",x);
    }
 }
+
+pub fn get_pi() -> f64 {
+   22.0/7.0
+}
